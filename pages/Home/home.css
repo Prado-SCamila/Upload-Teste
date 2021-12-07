@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;700&family=Numans&family=Roboto:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6fb;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nav-login{
+    margin-top:20px;
+  
+}
+
+.login {
+  display: flex;
+}
+
+.login-campos,
+.login-banner {
+  background-color: aquamarine;
+  width: 50vw;
+  height: 100vh;
+}
+
+.login-campos {
+  background: rgb(244, 104, 29);
+  background: linear-gradient(
+    180deg,
+    rgba(244, 104, 29, 1) 0%,
+    rgba(254, 171, 3, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-login {
+  width: 30vw;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-login {
+  font-size: 33px;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.form-login {
+  width: 30vw;
+  height: 30vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  margin-top: 50px;
+}
+
+.campo-email,
+.campo-senha {
+  background-color: #fff;
+  width: 24vw;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+
+  padding: 15px;
+
+  filter: drop-shadow(4px 0px 4px rgba(0, 0, 0, 0.25));
+  -webkit-box-shadow: 3px 5px 3px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.inputs {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  border: none;
+
+  color: #000;
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+
+  margin: 0 10px;
+}
+
+.inputs::placeholder {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+}
+
+.btn-login {
+  background-color: #6e4b87;
+  width: 120px;
+  height: 50px;
+
+  border: none;
+
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Dosis", sans-serif;
+
+  filter: drop-shadow(4px 0px 4px rgba(0, 0, 0, 0.25));
+  -webkit-box-shadow: 3px 5px 3px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn-login:hover {
+  transition: 0.5s;
+  transform: scale(1.02);
+  background-color: #6e4b87e7;
+}
+
+.login-banner {
+  background-color: #f6f6fb;
+}
+
+.nav-login {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn-nav {
+  width: 210px;
+  height: 30px;
+  font-size: 23px;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  border: none;
+
+  background: #feab03;
+  background: -webkit-linear-gradient(to right, #feab03 0%, #f4681d 100%);
+  background: -moz-linear-gradient(to right, #feab03 0%, #f4681d 100%);
+  background: linear-gradient(to right, #feab03 0%, #f4681d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-nav:hover,
+.btn-nav-home:hover {
+  transition: 0.5s;
+  transform: scale(1.01);
+  opacity: 0.5;
+}
+
+.conteudo-banner {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.conteudo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteudo1 img{
+    margin-top:50px;
+    width:60%;
+    margin-left:70px;
+}
+.conteudo2 {
+  width: 30vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo2 img{
+    width:90%;
+}
+
+/*PAGINA HOME*/
+
+/* .home{
+  width: 100vw;
+  background-color: sienna;
+} */
+
+.header-home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 80px;
+ flex-direction:row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left:7%;
+  padding-right:7%;
+}
+
+.logoimg {
+  width: 8%;
+}
+
+
+.btn-nav-home {
+  height: 30px;
+  font-size: 25px;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+
+  margin-right: 25px;
+  display: flex;
+   border: none;
+
+  background: #f4681d;
+  background: -webkit-linear-gradient(to right, #f4681d 0%, #feab03 100%);
+  background: -moz-linear-gradient(to right, #f4681d 0%, #feab03 100%);
+  background: linear-gradient(to right, #f4681d 0%, #feab03 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.conteudo-btn{
+    align-items: center;
+}
+.home-search{
+  width: 100%;
+  height: 363px;
+  display: flex;
+  position: relative;
+  
+}
+
+.imagem-home{
+  width: 10vw;
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+.conteudo-search{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+.conteudo-search h1{
+  font-family: "Dosis", sans-serif;
+  font-size: 92px;
+  text-transform: uppercase;
+  background: #f4681d;
+  background: -webkit-linear-gradient(to right, #f4681d 0%, #feab03 100%);
+  background: -moz-linear-gradient(to right, #f4681d 0%, #feab03 100%);
+  background: linear-gradient(to right, #f4681d 0%, #feab03 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.home-sobre{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.imagem-sobre{
+  width: 60%;
+  padding-left: 50px;
+}
+
+.text-sobre{
+  width: 60%;
+}
+
+.text-sobre p{
+  font-size: 18px;
+  font-family: "Dosis", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  color:#4F4F4F;
+  font-weight: 500;
+  line-height: 35px;
+  padding: 30px 60px;
+}
+
+
+.home-cards{
+  width: 100%;
+  height: 50vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 190px;
+}
+
+
+.conteudo-cards{
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.imgFundo{
+  position: absolute;
+}
+
+.img1{
+  left: 100px;
+  top: 900px;
+  width:43%;
+}
+
+.img2{
+
+  right: 100px;
+  top: 1150px;
+  
+}
+
+.card{
+  width: 422px;
+  height: 460px;
+  background-color: #fff;
+  color:#4f4f4f;
+  line-height:40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+ padding-bottom:40px;
+  filter: drop-shadow(4px 0px 4px rgba(0, 0, 0, 0.144));
+  -webkit-box-shadow: 3px 5px 3px 0px rgba(0, 0, 0, 0.151);
+  shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.137);
+}
+
+.card p{
+  font-size: 24px;
+  font-family: "Dosis", sans-serif;
+}
+
+
+.card1{
+  padding-top: 80px;
+}
+
+footer{
+  margin-top: 300px;
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+}
+
+.rodape{
+  padding-top:80px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.conteudo-Rodape {
+  height: 7vh;
+  border-right: solid 2px #F4681D;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo-Rodape2 {
+  height: 7vh;
+  text-transform: uppercase;
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text h3{
+  font-size: 30px;
+  font-family: "Dosis", sans-serif;
+  color: #6E4B87;
+  font-weight: 500;
+}

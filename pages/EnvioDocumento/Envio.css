@@ -1,0 +1,128 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.mainHeader{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.docs-interno{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:75%;
+    margin-left:22%;
+    background-color:white;
+}
+
+.form-docs{
+    width:330px;
+    box-shadow: 1px 2px 6px thistle;
+    border-radius:5px;
+    margin-right:20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:30px;
+
+}
+
+.meus-docs{
+    background-color: #F4681D;
+    color:white;
+    margin-left:22%;
+    margin-right:3%;
+    margin-top:20px;
+    border-radius:5px;
+    border:1px solid transparent;
+    font-size:25px;
+    padding-left:60px;
+    padding-top:18px;
+    height:60px;
+    display:flex;
+    justify-content:left;
+    flex-direction:row;
+}
+
+.meus-docs p{
+    color:white;
+}
+
+.meus-docs img{
+    width:35px;
+    margin-right:10px;
+}
+
+.arquivo{
+    box-shadow: 1px 2px 6px thistle;
+    width:900px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding-left:50px;
+}
+
+.arquivo p{
+    font-weight:bold;
+    color:gray;
+    font-size:25px;
+
+}
+
+.imgarquivo{
+    width:380px;
+}
+
+.inputs-file{
+   width:270px;
+   margin-top:10px;
+   margin-bottom:20px;
+   margin-left:30px;
+   height:35px;
+   border:1px solid rgba(219, 219, 219, 0.158);
+   border-radius:5px;
+   box-shadow: 0px 1px 2px 0px #a8a8a8;
+}
+
+.campo-file label{
+    color:#8f8f8f;
+    padding-left:30px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.btn-save{
+    width:115px;
+    height:40px;
+    margin-left:110px;
+    color:white;
+    font-size:25px;
+    background-color: #6E4B87;
+    border:1px solid transparent;
+    border-radius:5px;
+    margin-top:50px;
+}
+
+.btn-save:hover{
+    cursor:pointer;
+    background-color:rgba(66, 0, 66, 0.788);
+    letter-spacing:2px;
+}
+
+.showfile{
+    width:100%;
+    position:absolute;
+}
+
+.inputImg{
+    cursor:pointer;
+}
+
+.upload{
+    width:100%;
+    margin-right:20px;
+}

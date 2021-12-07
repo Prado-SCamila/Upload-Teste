@@ -1,0 +1,118 @@
+
+
+.form-header{
+    display:flex;
+    width:80%;
+    margin-left:20%;
+    justify-content:center;
+}
+.background-list{
+    width:78%;
+    background-color:#F4681D;
+    margin-top:30px;
+    margin-left:20%;
+    height:fit-content;
+}
+
+.bar-title{
+    background-color:#F6F6FB;
+    height:60px;
+    color:#F4681D;
+    font-weight:bold;
+    font-size:18px;
+    margin-bottom:2px;
+    letter-spacing:3px;
+    padding-left:6vw;
+    padding-right:6vw;
+}
+
+.bar-title ul{
+    list-style-type: none;
+    display: flex;
+    text-align:left;
+    flex-direction: row;
+    font-size:18px;
+    justify-content: left;
+    padding-top:20px;
+    padding-right:2%;
+    padding-left:10px;
+}
+
+.bar-title li:nth-child(2){
+    padding-left:190px;
+}
+
+.bar-title li:nth-child(3){
+    padding-left:190px;
+}
+
+.bar-title li:nth-child(4){
+    padding-left:270px;
+}
+
+.item-list{
+    background-color:#F6F6FB ;
+    margin-top:1px;
+    height:60px;
+    flex-direction:row;
+    display: flex;
+    padding-left:20px;
+    padding-right:20px;   
+    
+}
+
+.contratos, .numero , .nome , .cnpj{
+    background-color:#F6F6FB;
+    width:25%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size:20px;
+   
+}
+.background-img{
+    margin-left:91%;
+    padding-top:90px;
+    z-index:99 ;
+    position:relative;
+}
+
+.pg-buttons{
+    display:flex;
+    justify-content: left;
+    flex-direction:row;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    font-size:25px;
+    letter-spacing:2px;
+ 
+}
+
+.pg-button button:hover{
+    cursor:pointer;
+}
+
+.pg-buttons p{
+    margin-left:10px;
+}
+.pgnumber{
+    width:45px;
+    background-color: #0000008e;
+    color:white;
+    align-items: center;
+    margin-right:10px;
+    margin-left:10px;
+    font-size:25px;
+    padding-left:10px;
+}
+.btn-pagina{
+    background-color:#6E4B87;
+    padding:8px;
+    border:1px solid transparent;
+    border-radius:3px;
+    border-right:1px black solid;
+}
+.btn-pagina:hover{
+    cursor: pointer;
+    background-color:#4f3563;
+}

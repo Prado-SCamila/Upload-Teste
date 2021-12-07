@@ -1,0 +1,9 @@
+.uploads {
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 16px;
+	background: #F5F5FF;
+	box-shadow: 0 0 5px 5px #F5F5F5;
+}

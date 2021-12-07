@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="./cadUsuario.css">
+
+<body>
+
+<section class="cadastro-area">
+    <!-- <img class="icone-user" src="../../assets/user.svg" alt="icone-usuario"><h3>Novo Usuário</h3> -->
+<form action="" class="form-cadastro">
+
+                <div class="campo-Nome-cad">
+                     <p>Nome</p>
+                     <!-- <MdEmail color="#969696" style={{ fontSize: "34px" }} /> -->
+                     <input class="inputs-cad" type="text" />
+                 </div>
+
+                 <div class="campo-email-cad">
+                     <p>Email</p>
+                     <!-- <MdEmail color="#969696" style={{ fontSize: "34px" }} /> -->
+                     <input class="inputs-cad" type="email" />
+                 </div>
+                 
+                 <div class="campo-senha-cad">
+                     <p>Senha</p>
+                     <!-- <MdLock color="#969696" style={{ fontSize: "34px" }} /> -->
+                     <input class="inputs-cad" type="password"  />
+                 </div>
+
+                 <div class="acesso-cad">
+                     <p>Tipo de Acesso</p>
+                     <div class="radios">
+                     <!-- <MdEmail color="#969696" style={{ fontSize: "34px" }} /> -->
+                     <div class="radio1">
+                     <label>Funcionário</label>
+                     <input class="radio" type="radio" />
+                    </div>
+
+                    <div class="radio2">
+                     <label>Administrador</label>
+                     <input class="radio" type="radio" />
+                    </div>
+                    </div>
+                 </div>
+
+                 <button class="btn-envio-cad" type="submit" >Enviar</button>
+
+             </form>
+</section>
+        
+<div className="lista-usuarios">
+    <p>Usuarios Cadastrados</p>
+</div>
+
+</body>

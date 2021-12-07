@@ -1,0 +1,9 @@
+.box {
+	width: 85vw;
+	max-width: 500px;
+	max-height: 600px;
+	border-radius: 4px;
+	background: #F5F5FF;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}

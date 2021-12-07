@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.nav-menu{
+    width: 20%;
+    background-color:#f6f6fb;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Dosis'; 
+    position: absolute;
+
+    background-color: aqua;
+    
+}
+
+.id-logado{
+    margin-top:20px;
+    margin-bottom:50px;
+    text-align:center;
+    margin-left:30px;
+}
+
+
+
+.id-logado img {
+    border: 1px solid transparent;
+    border-radius:50%;
+    width:150px;
+    height:150px;
+    margin-bottom:20px;
+    margin-top:30px;
+    margin-left:50px;
+}
+
+.id-logado h2:first-child{
+    font-weight:lighter;
+}
+
+.menu-principal ul , .menu-rodapé ul{
+   
+    list-style-type: none;
+    line-height:2.5em;
+    font-size:20px;
+}
+
+.menu-principal img , .menu-rodapé img{
+    padding-left:4vw;
+    }
+
+.menu-principal li:hover, .menu-rodapé li:hover{
+    background-color:rgba(253, 198, 80, 0.171);
+    border-right:5px solid #f16a2c;
+    font-weight:bold;
+} 
+
+
+.menu-principal ul li, .menu-rodapé ul li{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+
+
+.menu-principal ul li img , .menu-rodapé ul li img{
+
+    padding-right:20px;
+}
+
+
+.menu-principal a , .menu-rodapé a{
+    text-decoration:none;
+    color:rgb(46, 46, 46);
+}
+
+.menu-rodapé{
+    margin-top:80px;
+}

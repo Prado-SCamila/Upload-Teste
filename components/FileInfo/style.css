@@ -1,0 +1,61 @@
+.fileInfo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.fileInfo:nth-child(1) {
+	margin-top: 16px;
+}
+
+.fileInfo-item {
+	display: grid;
+	grid-template-columns: 1fr 132px;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-areas:
+		'image name'
+		'image more'
+	;
+	grid-column-gap: 4px;
+	align-items: center;
+}
+
+.fileInfo-item > img {
+	grid-area: image;
+	width: 64px;
+	border-radius: 4px;
+}
+
+.fileInfo-item > strong {
+	grid-area: name;
+	color: #444;
+}
+
+.fileInfo-item > div {
+	grid-area: more;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.fileInfo-item > div > span {
+	font-size: 14px;
+}
+
+.fileInfo-item > div > button {
+	border: 0;
+	background: transparent;
+	color: #b33450aa;
+	text-decoration: underline;
+}
+
+.fileInfo-display {
+	align-self: flex-end;
+	height: max-content;
+}
+
+@media only screen and (max-width: 400px) {
+	.fileInfo-display {
+		background: #ddd !important;
+	}
+}

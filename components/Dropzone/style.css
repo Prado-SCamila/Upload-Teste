@@ -1,0 +1,7 @@
+.dropzone {
+	padding: 16px;
+	border: 1px dashed #888;
+	border-radius: 4px;
+	color: #888;
+	text-align: center;
+}
